@@ -29,9 +29,9 @@ const MessageItem = ({
         </span>
         <p>{text}</p>
         {isCorrectUser && (
-          <a className="btn btn-danger" onClick={removeMessage}>
+          <Link className="btn btn-danger" onClick={removeMessage}>
             Delete
-          </a>
+          </Link>
         )}
       </div>
     </li>
